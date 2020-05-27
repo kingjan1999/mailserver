@@ -1,7 +1,7 @@
-FROM hardware/debian-mail-overlay:latest
+FROM kingjan1999/debian-mail-overlay:latest
 
 LABEL description "Simple and full-featured mail server using Docker" \
-      maintainer="Hardware <contact@meshup.net>"
+      maintainer="kingjan1999 <king-jan1999@hotmail.de>"
 
 ARG DEBIAN_FRONTEND=noninteractive
 ENV PYTHONUNBUFFERED=1
